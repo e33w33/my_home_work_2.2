@@ -1,14 +1,5 @@
 class Animal:
     def __init__(self, name, type, eat, age, nickname):
-
-        '''
-        :name - имя животного:
-        :type - тип животного:
-        :eat - чем питается:
-        :age - возраст:
-        :nickname - кличка:
-        '''
-
         self.name = name
         self.type = type
         self.eat = eat
@@ -78,7 +69,6 @@ penguin.hunt_meta()
 penguin.walk()
 print('---------------------------------------------------')
 trout = Trout('Fish', 'Trout', 'Predator', 1, 'Issykulskiy')
-trout.swim()
 print(trout)
 trout.eat_meta()
 trout.swim()
